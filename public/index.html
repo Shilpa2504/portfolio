@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+	<!------Header Section------>
+	<header>
+		<a href="#" class="logo">Shi<span>lp</span>a</a>
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#services">Skills</a></li>
+			<li><a href="#portfolio">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header>
+
+	<!---------Home Section--------------->
+	<div id="container">
+	<div class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello</span>
+				<span class="two">I'm</span>
+			
+			<h1>Shilpa Gupta</h1>
+		</div>
+			<div id="profile>">
+			
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./img/resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+			<button id="btns">
+          <img
+            src="./img/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/shilpa-gupta-621a90259/'"
+          /></button>
+<button id="btns">
+          <img
+            src="./img/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Shilpa2504'"
+          /></button>
+        </div>
+		<div class="button">
+			<a href="#about" class="btn">About Me</a>
+		</div>
+			
+		</div>
+	</div>
+</div>
+	<!---------about Section --------------->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/about.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+		
+			<p id="cont"> I belong to <span>Jss Academy of Technical Education, Bangalore</span> .Currently I am doing <span>B.E(Bachelors of Engineering) in computer 
+				Science and Engineering</span>.Now I am in 7th semester with a grade of <span>8.52 CGPA</span>. I am well enough in <span>Problem solving.</span>
+				I'm also a web developer proficient in <span>HTML, CSS, JavaScript,Bootstrap and React.Js </span> . I also have some knowledge of <span>Node.js and MongoDB.</span>
+				 My focus is on creating visually appealing and user-friendly web applications. I'm dedicated to writing clean, maintainable code and 
+				 staying updated with industry trends.<span> I'm eager to tackle new challenges and expand my skills to contribute to impactful projects.<br/></span>Regards,<br/><span>Shilpa Gupta</span>
+			
+				</p>
+				<a href="#services" class="btn">My Skills</a>
+		</div>
+	</section>
+
+	<!-----------Services Section-------------->
+	<section class="services" id="services">
+	<div class="main-text">
+		<h2><span>My</span>Skills</h2>
+	</div>
+	<div class="services-content">
+		<div class="box">
+			<div class="s-icons">
+				<br/>
+				<i class='bx bx-mobile-alt'>HTML</i><br/>
+				
+				<br/>
+				<i class='bx bx-mobile-alt'>CSS</i><br/>
+				
+				<br/>
+				<i class='bx bx-mobile-alt'>JavaScript</i><br/>
+				
+				<br/>
+				<i class='bx bx-mobile-alt'>ReactJs</i><br/>
+			
+				<br/>
+				<i class='bx bx-mobile-alt'>C Programming</i><br/>
+				<br/>
+			</div>
+			
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<br/>
+				<i class='bx bx-mobile-alt'>BootStrap</i><br/>
+				
+				<br/>
+				<i class='bx bx-mobile-alt'>MySQL</i><br/>
+				
+				<br/>
+				<i class='bx bx-mobile-alt'>Node.js</i><br/>
+				
+				<br/>
+				<i class='bx bx-mobile-alt'>Problem Solving</i><br/>
+				
+				<br/>
+				<i class='bx bx-mobile-alt'>Java</i><br/>
+				<br/>
+			</div>
+			
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<br/>
+				<i class='bx bx-mobile-alt'>VSCode</i><br/>
+				
+				<br/>
+				<i class='bx bx-mobile-alt'>GIT/Github</i><br/>
+				
+				<br/>
+				<i class='bx bx-mobile-alt'>Render</i><br/>
+				
+				<br/>
+				<i class='bx bx-mobile-alt'>NPM</i><br/>
+				
+				<br/>
+				<i class='bx bx-mobile-alt'>Vercel</i><br/>
+				<br/>
+			</div>
+			
+		</div>
+
+		</div>
+
+</section>
+
+<!-----------Portfolio Section--------------->
+<section class="portfolio" id="portfolio">
+	<div class="main-text">
+		<h2><span>My</span>Projects</h2>
+	</div>
+	<div class="portfolio-content">
+		<div class="row">
+			<img src="img/project4.jpg" >
+			<div class="layer">
+				<h5>Food Delivery App</h5>
+				<p>This project is built using HTML, CSS, and React, and it's a food app that utilizes the MERN stack. The frontend is hosted on Vercel, while the backend is hosted on Render</p>
+				<a href="https://foodaholic.vercel.app/"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="img/project3.jpg" >
+			<div class="layer">
+				<h5>TextCase Converter</h5>
+				<p>This project is built using HTML, CSS, and React, and it is designed for performing case conversion from capital to lowercase.  The project is hosted on Firebase.</p>
+				<a href="https://case-conversion-for-texts.firebaseapp.com/"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="img/project2.jpg" >
+			<div class="layer">
+				<h5>Candy Museum</h5>
+				<p>This project is built upon the foundation of HTML and CSS.It is responsiveness ensures that the content and layout  adapt seamlessly to various screen sizes .</p>
+				<a href="https://candy-museum-one.vercel.app/"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="img/project1.jpg" >
+			<div class="layer">
+				<h5>Newsapp</h5>
+				<p>This project, built with HTML, CSS, and React, serves as a news app that retrieves news from an API. It has responsive design, user authentication, bookmarking, search, and filtering features.</p>
+				<a href=""> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+	
+		
+	</div>
+
+</section>
+
+<!------------------Contact section------------>
+<section class="contact" id="contact">
+	<div class="contact-text">
+		<h2>Lets<span> Connect!</span></h2>
+		<div class="li">
+		<div class="list">
+			<div class="contact-info-container">
+				
+				<button id="btns">
+				<img
+				src="./img/linkedin.png"
+				alt="My LinkedIn profile"
+				class="icon contact-icon "
+				onclick="location.href='https://www.linkedin.com/in/shilpa-gupta-621a90259/'"
+				 
+				/></button>
+				<p><a href="https://www.linkedin.com/in/shilpa-gupta-621a90259/">Shilpa.Linkedinn</a></p>
+			
+			  </div>
+			<div class="contact-info-container">
+				
+				<button id="btns">
+				<img
+				  src="./img/email.png"
+				  alt="Email icon"
+				  class="icon contact-icon "
+				/></button>
+				<p><a href="mailto:1js20cs151@gmail.com">1js20cs151@gmail.com</a></p>
+			
+			  </div>
+			
+		</div>
+		</div>
+
+	
+	</div>
+	
+</section>
+
+<!---------End Section---------->
+<section class="end">
+	<div class="last-text">
+		<p>Design By Shilpa</p>
+	</div>
+	<div class="top">
+		<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+	</div>
+</section>
+
+</body>
+
+</html>
