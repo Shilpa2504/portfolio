@@ -138,7 +138,9 @@ section {
     font-size: 20px;
     font-weight: 500;
 }
-
+@media max-width(500px){
+    
+}
 .home-text h1 {
     font-size: var(--big-font);
     font-weight: 700;
